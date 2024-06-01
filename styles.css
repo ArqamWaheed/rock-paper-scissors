@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.result {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.result h1 {
+    font-size: 80px;
+}
+
+button {
+    flex: 1;
+    height: 300px;
+    font-size: 80px;
+}
+
+
+.instructions > p {
+    font-size: 80px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
